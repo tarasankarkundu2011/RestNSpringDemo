@@ -44,4 +44,9 @@ public class ProfileServiceImpl implements ProfileService{
 		profileDao.deleteProfileById(id);
 	}
 
+	@Override
+	public Profile getProfileByName(String name) {
+		return profileDao.getProfileByName(name);
+	}
+
 }

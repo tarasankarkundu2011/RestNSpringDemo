@@ -48,6 +48,11 @@ public class ProfileDaoImpl implements ProfileDao{
 		profileRepository.delete(id);
 		
 	}
+
+	@Override
+	public Profile getProfileByName(String name) {
+		return profileRepository.findByProfileName(name);
+	}
 	
 	
 

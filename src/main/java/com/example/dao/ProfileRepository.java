@@ -6,4 +6,5 @@ import com.example.model.Profile;
 
 public interface ProfileRepository extends CrudRepository<Profile, Integer>{
 
+	public Profile findByProfileName(String profileName);
 }

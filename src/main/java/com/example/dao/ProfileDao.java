@@ -19,4 +19,6 @@ public interface ProfileDao {
 
 	void deleteProfileById(int id);
 
+	Profile getProfileByName(String name);
+
 }

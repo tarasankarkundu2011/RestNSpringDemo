@@ -19,5 +19,7 @@ public interface ProfileService {
 
 	void deleteProfileById(int id);
 
+	Profile getProfileByName(String name);
+
 	
 }
